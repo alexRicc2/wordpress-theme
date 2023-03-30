@@ -30,3 +30,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
   padding: 15px;
   outline: 1px solid blue;
 }
+.custom-logo{
+  max-width: 200px;
+  max-height: 100px;
+  object-fit: contain;
+}

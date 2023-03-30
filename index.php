@@ -8,7 +8,7 @@ get_header();
 ?>
 
 
-<div class="content">
+<div class="content index">
 
   <?php get_template_part('template-parts/flexbox/boxes'); ?>
 </div>
