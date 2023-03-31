@@ -20,7 +20,7 @@ class AQUILA_THEME
   protected function __construct()
   {
     //load class
-
+    Meta_Boxes::get_instance();
     Assets::get_instance();
     Menus::get_instance();
     $this->setup_hooks();
@@ -59,5 +59,7 @@ class AQUILA_THEME
     if( !isset( $content_width)){
       $content_width = 1240;
     }
+
+    add_image_size('featured-large', 350, 233, true);
   }
 }

@@ -8,7 +8,7 @@
 get_header();
  ?>
 
- <div class="content index"> Page </div>
+ <div class="content index"> Page.php </div>
 
  <?php 
  get_footer();
