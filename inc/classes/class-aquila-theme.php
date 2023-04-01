@@ -23,6 +23,7 @@ class AQUILA_THEME
     Meta_Boxes::get_instance();
     Assets::get_instance();
     Menus::get_instance();
+    Sidebars::get_instance();
     $this->setup_hooks();
   }
   protected function setup_hooks()

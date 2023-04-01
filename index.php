@@ -19,6 +19,7 @@ get_header();
       if (have_posts()) :
       ?>
         <div class="container">
+          <div>this is the index.php, just to be clear</div>
           <?php
           if (is_home() && !is_front_page()) {
           ?>
@@ -54,11 +55,13 @@ get_header();
             endwhile;
             ?>
           </div>
+          <?php aquila_pagination();?>
         </div>
       <?php
       else :
         get_template_part('template-parts/content-none');
       endif;
+
       ?>
     </main>
   </div>

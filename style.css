@@ -49,3 +49,7 @@ img{
 .nav-item:hover .dropdown-menu:not(.show){
   display: block;
 }
+.page-numbers.current > span {
+  background-color: gray;
+  color: #fff;
+}
