@@ -1,2 +1,7 @@
 import './clock';
-import '../img/cat.jpg';
+
+// Styles
+import '../sass/main.scss';
+
+// Images.
+import '../img/cats.jpg';
