@@ -19,7 +19,7 @@ get_header();
       if (have_posts()) :
       ?>
         <div class="container">
-          <div>this is the index.php, just to be clear</div>
+          <div>this is the index.php, just to be clear , change the layout of the posts from bootstrap to display flex</div>
           <?php
           if (is_home() && !is_front_page()) {
           ?>
