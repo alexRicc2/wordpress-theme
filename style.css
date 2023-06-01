@@ -1,10 +1,10 @@
 /*
-Theme Name: Aquila
+Theme Name: Headless Theme
 Theme URI: https://wordpress.org
 Author: Alex
 Author URI: https://wordpress.org/
-Description: I'm build this theme with a youtube playslist
-Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Description: I built this template to use it with the WPGraphql plugin.
+Tags: blog, Headless Template Theme
 Version: 1.0
 Requires at least: 5.0
 Tested up to: 5.4
@@ -15,17 +15,17 @@ Text Domain: aquila
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
-body{
-  font-family: 'Lato', sans-serif !important; 
+body {
+  font-family: "Lato", sans-serif !important;
 }
-img{
+img {
   width: 100%;
   height: auto;
 }
-.updated:not(.published){
+.updated:not(.published) {
   display: none;
 }
-.size-featured-image{
+.size-featured-image {
   max-width: 350px;
   height: 230px;
   object-fit: cover;
@@ -33,23 +33,22 @@ img{
 .hello-test {
   min-height: 100vh;
   width: 100%;
-  
 }
-.boxes{
+.boxes {
   display: flex;
   justify-content: space-around;
   width: 100%;
 }
-.my-box{
+.my-box {
   padding: 15px;
   outline: 1px solid blue;
 }
-.custom-logo{
+.custom-logo {
   max-width: 100px;
   max-height: 60px;
   object-fit: contain;
 }
-.nav-item:hover .dropdown-menu:not(.show){
+.nav-item:hover .dropdown-menu:not(.show) {
   display: block;
 }
 .page-numbers.current > span {

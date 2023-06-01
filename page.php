@@ -1,15 +1,10 @@
-<?php 
+<?php
 
 /**
  * Page template
  * 
  * @package aquila
  */
-get_header();
- ?>
+?>
 
- <div class="content index"> Page.php </div>
-
- <?php 
- get_footer();
- ?>
+<div class="content index"> <a href="https://blog.ultatel.com/">BLOG ULTATEL</a> </div>

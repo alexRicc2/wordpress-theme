@@ -5,8 +5,7 @@
  * @package aquila
  */
 
- get_header();
 ?>
-<div> 404 page not found</div>
-
-<?php get_footer();?>
+<div> 
+<a href="https://blog.ultatel.com/">BLOG ULTATEL</a> 
+</div>
