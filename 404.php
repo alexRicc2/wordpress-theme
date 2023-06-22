@@ -4,6 +4,7 @@
  * 
  * @package aquila
  */
+wp_redirect("https://blog.ultatel.com/404");
 
 ?>
 <div> 
