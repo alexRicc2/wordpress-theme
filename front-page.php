@@ -5,10 +5,10 @@
  * 
  * @package aquila
  */
-wp_redirect("https://blog.ultatel.com");
+wp_redirect("https://tsh-new-website.vercel.app/");
 
 ?>
 
 <div class="content index">
-  <a href="https://blog.ultatel.com/">BLOG ULTATEL</a>
+  <a href="https://tsh-new-website.vercel.app/">The SEO Hustler</a>
 </div>

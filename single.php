@@ -11,7 +11,7 @@ if ($post) {
   $slug = $post->post_name;
 
   // Redirect to the Next.js headless website
-  wp_redirect("https://blog.ultatel.com/$slug");
+  wp_redirect("https://tsh-new-website.vercel.app/$slug");
   exit;
 }
 ?>

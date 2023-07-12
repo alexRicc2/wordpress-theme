@@ -5,7 +5,7 @@ Main template  file
 
 */
 // get_header();
-wp_redirect("https://blog.ultatel.com");
+wp_redirect("https://tsh-new-website.vercel.app/");
 
 ?>
 
@@ -14,7 +14,7 @@ wp_redirect("https://blog.ultatel.com");
 
   <div id="primary">
     <main id="main" class="site-main mt-5" role="main">
-      <a href="https://blog.ultatel.com/">BLOG ULTATEL</a>
+      <a href="https://tsh-new-website.vercel.app/">The SEO Hustler</a>
     </main>
   </div>
 </div>
