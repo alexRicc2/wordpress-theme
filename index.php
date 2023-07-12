@@ -1,7 +1,7 @@
 <?php
 /*
 Main template  file
-@package Aquiola
+@package Aquila
 
 */
 // get_header();

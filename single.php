@@ -7,12 +7,19 @@ Single template  file
 // Get the post object
 $post = get_post();
 if ($post) {
-  // Get the post slug
-  $slug = $post->post_name;
+    // Get the post slug
+    $slug = $post->post_name;
 
-  // Redirect to the Next.js headless website
-  wp_redirect("https://tsh-new-website.vercel.app/$slug");
-  exit;
+    // Check the post type
+    if ($post->post_type === 'case_study') {
+        // Redirect for 'case_study' post type
+        wp_redirect("https://tsh-new-website.vercel.app/case-study/$slug");
+        exit;
+    } else {
+        // Redirect for other post types
+        wp_redirect("https://tsh-new-website.vercel.app/$slug");
+        exit;
+    }
 }
 ?>
 
