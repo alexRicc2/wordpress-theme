@@ -11,6 +11,8 @@ if ($post) {
     $slug = $post->post_name;
 
     // Check the post type
+    if (!isset($_GET['no_redirect'])) {
+
     if ($post->post_type === 'case_study') {
         // Redirect for 'case_study' post type
         wp_redirect("https://tsh-new-website.vercel.app/case-study/$slug");
@@ -20,6 +22,7 @@ if ($post) {
         wp_redirect("https://tsh-new-website.vercel.app/$slug");
         exit;
     }
+  }
 }
 ?>
 

@@ -5,7 +5,10 @@
  * 
  * @package aquila
  */
-wp_redirect("https://tsh-new-website.vercel.app/");
+if (!isset($_GET['no_redirect'])) {
+  wp_redirect("https://example.com/");
+  exit;
+}
 ?>
 
 <div class="content index"> <a href="https://tsh-new-website.vercel.app/">The SEO Hustler</a> </div>
